@@ -14,3 +14,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+idade = int(input("digite a sua idade :"))
+
+if idade >= 18:
+    print("Pode tirar carteira de motorista? True")
+else:
+    print("Pode tirar carteira de motorista? false")
+    

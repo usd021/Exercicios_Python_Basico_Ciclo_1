@@ -6,11 +6,11 @@
 
 #----------------------------------------- Exemplo 1 (Soma)
 
-# |------------------------------|
-# | Calculadora
-# |------------------------------|
-# | 1 - Soma
-# | 2 - Subtração
+#print("|------------------------------|")
+#print("| Calculadora")
+#print("|------------------------------|")
+#print("| 1 - Soma")
+# 2 - Subtração
 # | 3 - Multiplicação
 # | 4 - Divisão 
 # |------------------------------|
@@ -52,3 +52,37 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
+
+
+
+
+
+
+print("|------------------------------|") 
+print("| Calculadora") 
+print("|------------------------------|") 
+print("| 1 - Soma") 
+print("| 2 - Subtração") 
+print("| 3 - Multiplicação") 
+print("| 4 - Divisão ") 
+print("|------------------------------|") 
+opcao = int(input(" Escolha uma das opções: ")) 
+num1 = float(input("Digite o primeiro número: ")) 
+num2 = float(input("Digite o segundo número: ")) 
+if opcao == 1: 
+    resultado = num1 + num2 
+    print(f"O resultado é {resultado}") 
+elif opcao == 2: 
+    resultado = num1 - num2 
+    print(f"O resultado é {resultado}") 
+elif opcao == 3: 
+    resultado = num1 * num2 
+    print(f"O resultado é {resultado}") 
+elif opcao == 4: 
+    if num2 == 0: 
+        resultado = num1 / num2 
+        print(f"| O resultado é: {resultado}") 
+    else: print("| ERRO, Divisão por zero não é permitido") 
+else: 
+    print("| ERRO, Escolha uma opção válida.")

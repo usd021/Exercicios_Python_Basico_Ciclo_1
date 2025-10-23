@@ -10,3 +10,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+
+dias = float(input("digite a quantidade de dias com o carro"))
+km = float(input("digite digite a kilometragem"))
+diaria = 500
+total_dias = dias * diaria
+total_km =km * 500
+aluguel_total = total_dias + total_km
+
+print(f"voce andou {km},e voce ficou com o carro {dias} , entao o total a pagar é {aluguel_total}")

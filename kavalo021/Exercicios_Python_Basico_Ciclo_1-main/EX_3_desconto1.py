@@ -12,3 +12,7 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+preço = int(input("qual o valor do item selecionado"))
+porcentagem = float(input("digite o percentual de desconto"))
+desconto = preço * ( porcentagem)
+print(f"o seu desconto foi de {desconto}")

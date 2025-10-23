@@ -15,3 +15,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+
+dia = int(input(" escolha um de 1 a 7"))
+if dia == 1:
+    print("domingo")
+elif dia == 2:
+    print("segunda")
+elif dia == 3:
+    print("terça-feira")
