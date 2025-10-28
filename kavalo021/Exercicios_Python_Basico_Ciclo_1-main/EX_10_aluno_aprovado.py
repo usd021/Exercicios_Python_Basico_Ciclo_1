@@ -17,3 +17,16 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+
+nota1 = float(input("digite a primeira nota :"))
+nota2 = float(input("digite a segunda nota :"))
+
+
+soma = nota1 + nota2
+ 
+media = soma / 2 
+
+if media >= 7.0:
+    print("aluno aprovado? true")
+else:
+    print("aluno aprovado? false")
